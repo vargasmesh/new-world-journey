@@ -8,42 +8,143 @@
   </head>
   <body>
     <script type="module" src="./src/main.ts"></script>
-    <div class="container mx-auto px-4">
-      <div class="flex flex-col items-center pt-16">
-        <h1 class="text-xl font-medium">Journey to the new world</h1>
-        <div class="flex gap-14 py-3">
-          <div class="flex flex-col items-center">
-            <span id="days" class="text-5xl md:text-7xl font-bold"></span>
-            <span class="text-xl md:text-2xl">Days</span>
-          </div>
-          <div class="flex flex-col items-center">
-            <span id="hours" class="text-5xl md:text-7xl font-bold"></span>
-            <span class="text-xl md:text-2xl">Hours</span>
-          </div>
-          <div class="flex flex-col items-center">
-            <span id="minutes" class="text-5xl md:text-7xl font-bold"></span>
-            <span class="text-xl md:text-2xl">Minutes</span>
-          </div>
-          <div class="flex flex-col items-center">
-            <span id="seconds" class="text-5xl md:text-7xl font-bold"></span>
-            <span class="text-xl md:text-2xl">Seconds</span>
-          </div>
-        </div>
-        <h2 class="text-center font-medium py-6">
-          Embark on an Adventure of a Lifetime and Explore the Unexplored with Journey to the New World: </br>
-          Discover the Unknown, Experience the Unforgettable, and Expand Your Horizons. </br>
-          Join our Crew Today and be Part of this Epic Journey!
-        </h2>
-        <div class="p-2 bg-[#FADEB3] rounded-2xl w-96 flex h-12 pl-4">
-          <input placeholder="Enter your email" class="bg-transparent w-full focus:outline-none" type="email"/>
-          <button class="w-10 bg-[#E9B325] rounded-lg" type="submit">
-            <div class="flex w-full items-center flex-col">
-            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M9.30176 1.42822L10.3857 0.344238C10.8447 -0.114746 11.5869 -0.114746 12.041 0.344238L21.5332 9.83154C21.9922 10.2905 21.9922 11.0327 21.5332 11.4868L12.041 20.979C11.582 21.438 10.8398 21.438 10.3857 20.979L9.30176 19.895C8.83789 19.4312 8.84766 18.6743 9.32129 18.2202L15.2051 12.6147H1.17188C0.522461 12.6147 0 12.0923 0 11.4429V9.88037C0 9.23096 0.522461 8.7085 1.17188 8.7085H15.2051L9.32129 3.10303C8.84277 2.64893 8.83301 1.89209 9.30176 1.42822Z" fill="white"/>
-              </svg>
+    <div class="flex flex-col min-h-screen">
+      <header></header>
+      <main class="container mx-auto flex-grow px-4">
+        <div class="flex flex-col items-center pt-16">
+          <h1 class="text-xl font-medium">Journey to the new world</h1>
+          <div class="flex gap-14 py-3">
+            <div class="flex flex-col items-center">
+              <span id="days" class="text-5xl md:text-7xl font-bold"></span>
+              <span class="text-xl md:text-2xl">Days</span>
             </div>
-          </button>
+            <div class="flex flex-col items-center">
+              <span id="hours" class="text-5xl md:text-7xl font-bold"></span>
+              <span class="text-xl md:text-2xl">Hours</span>
+            </div>
+            <div class="flex flex-col items-center">
+              <span id="minutes" class="text-5xl md:text-7xl font-bold"></span>
+              <span class="text-xl md:text-2xl">Minutes</span>
+            </div>
+            <div class="flex flex-col items-center">
+              <span id="seconds" class="text-5xl md:text-7xl font-bold"></span>
+              <span class="text-xl md:text-2xl">Seconds</span>
+            </div>
+          </div>
+          <h2 class="text-center font-medium py-6">
+            Embark on an Adventure of a Lifetime and Explore the Unexplored with
+            Journey to the New World: <br />
+            Discover the Unknown, Experience the Unforgettable, and Expand Your
+            Horizons. <br />
+            Join our Crew Today and be Part of this Epic Journey!
+          </h2>
+          <div class="p-2 bg-[#FADEB3] rounded-2xl w-96 flex h-12 pl-4">
+            <input
+              placeholder="Enter your email"
+              class="bg-transparent w-full focus:outline-none"
+              type="email"
+            />
+            <button class="w-10 bg-[#E9B325] rounded-lg" type="submit">
+              <div class="flex w-full items-center flex-col">
+                <svg
+                  width="22"
+                  height="22"
+                  viewBox="0 0 22 22"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M9.30176 1.42822L10.3857 0.344238C10.8447 -0.114746 11.5869 -0.114746 12.041 0.344238L21.5332 9.83154C21.9922 10.2905 21.9922 11.0327 21.5332 11.4868L12.041 20.979C11.582 21.438 10.8398 21.438 10.3857 20.979L9.30176 19.895C8.83789 19.4312 8.84766 18.6743 9.32129 18.2202L15.2051 12.6147H1.17188C0.522461 12.6147 0 12.0923 0 11.4429V9.88037C0 9.23096 0.522461 8.7085 1.17188 8.7085H15.2051L9.32129 3.10303C8.84277 2.64893 8.83301 1.89209 9.30176 1.42822Z"
+                    fill="white"
+                  />
+                </svg>
+              </div>
+            </button>
+          </div>
         </div>
+      </main>
+      <div class="">
+        <svg
+          viewBox="0 0 1512 328"
+          preserveAspectRatio="none"
+          xmlns="http://www.w3.org/2000/svg"
+          class="xl:max-h-96 w-full"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M0 38.9329L84.4198 25.2995C167.58 11.6669 336.42 -15.5999 504 11.6669C671.582 38.9328 840.418 120.731 1008 168.447C1175.58 216.163 1344.42 229.795 1427.58 236.612L1512 243.429V402.481H1427.58C1344.42 402.481 1175.58 402.481 1008 402.481C840.418 402.481 671.582 402.481 504 402.481C336.42 402.481 167.58 402.481 84.4198 402.481H0V38.9329Z"
+            fill="url(#paint0_linear_16_64)"
+            fill-opacity="0.5"
+          />
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M1512 318.255L1449 330.371C1386 342.487 1260 366.719 1134 403.067C1008 439.415 881.998 487.879 756 512.11C630.002 536.344 504 536.344 378 499.995C252 463.647 126 390.951 63.0002 354.603L0 318.255V281.906H63.0002C126 281.906 252 281.906 378 281.906C504 281.906 630.002 281.906 756 281.906C881.998 281.906 1008 281.906 1134 281.906C1260 281.906 1386 281.906 1449 281.906H1512V318.255Z"
+            fill="url(#paint1_linear_16_64)"
+            fill-opacity="0.4"
+          />
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M0 146.533L63.0002 153.084C126 159.634 252 172.735 378 198.936C504 225.137 630.002 264.439 756 257.888C881.998 251.338 1008 198.936 1134 159.634C1260 120.332 1386 94.1305 1449 81.0303L1512 67.9293V343.043H1449C1386 343.043 1260 343.043 1134 343.043C1008 343.043 881.998 343.043 756 343.043C630.002 343.043 504 343.043 378 343.043C252 343.043 126 343.043 63.0002 343.043H0V146.533Z"
+            fill="url(#paint2_linear_16_64)"
+            fill-opacity="0.4"
+          />
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M0 166.738L63.0002 159.848C126 152.958 252 139.866 378 113.684C504 86.8127 630.002 47.5386 756 34.4469C881.998 20.6666 1008 34.4469 1134 53.7397C1260 73.7211 1386 100.593 1449 113.684L1512 126.776V325.211H1449C1386 325.211 1260 325.211 1134 325.211C1008 325.211 881.998 325.211 756 325.211C630.002 325.211 504 325.211 378 325.211C252 325.211 126 325.211 63.0002 325.211H0V166.738Z"
+            fill="url(#paint3_linear_16_64)"
+            fill-opacity="0.6"
+          />
+          <defs>
+            <linearGradient
+              id="paint0_linear_16_64"
+              x1="756"
+              y1="2.83006e-05"
+              x2="756"
+              y2="402.481"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#FADEB3" />
+              <stop offset="1" stop-color="#366ED1" stop-opacity="0" />
+            </linearGradient>
+            <linearGradient
+              id="paint1_linear_16_64"
+              x1="756"
+              y1="528.999"
+              x2="756"
+              y2="281.906"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#FADEB3" />
+              <stop offset="1" stop-color="#366ED1" stop-opacity="0" />
+            </linearGradient>
+            <linearGradient
+              id="paint2_linear_16_64"
+              x1="756"
+              y1="67.9293"
+              x2="756"
+              y2="343.043"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#FADEB3" />
+              <stop offset="1" stop-color="#0D4341" />
+            </linearGradient>
+            <linearGradient
+              id="paint3_linear_16_64"
+              x1="756"
+              y1="28.8699"
+              x2="756"
+              y2="325.211"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#F4E4BB" />
+              <stop offset="1" stop-color="#366ED1" stop-opacity="0" />
+            </linearGradient>
+          </defs>
+        </svg>
       </div>
     </div>
   </body>
